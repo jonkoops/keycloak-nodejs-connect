@@ -14,7 +14,7 @@
  * the License.
  */
 import axios from 'axios'
-import test from 'blue-tape'
+import test from 'tape'
 import { NodeApp } from './fixtures/node-console/index.mjs'
 import { createClient, createRealm, deleteRealm } from './utils/realm.mjs'
 import getToken from './utils/token.mjs'

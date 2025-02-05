@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-import test from 'blue-tape'
+import test from 'tape'
 import session from 'express-session'
 import { NodeApp } from './fixtures/node-console/index.mjs'
 import { TestVector } from './utils/helper.mjs'

@@ -13,7 +13,7 @@
  * License for the specific language governing permissions and limitations under
  * the License.
  */
-import test from 'blue-tape'
+import test from 'tape'
 import { NodeApp } from './fixtures/node-console/index.mjs'
 import { createClient, createRealm, deleteRealm } from './utils/realm.mjs'
 import { newPage as page } from './utils/webdriver.mjs'
